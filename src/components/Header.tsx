@@ -4,7 +4,7 @@ function Header() {
 	return (
 		<header>
 			<img className="logo" src="src\components\logo.svg" alt="" />{" "}
-			<h1>Boston Dynamics</h1>
+			<h1>Projet de groupe React</h1>
 		</header>
 	);
 }
