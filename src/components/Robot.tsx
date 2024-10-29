@@ -6,7 +6,7 @@ function Robot() {
 	const data = [
 		{
 			id: 1,
-			Images: "src/spot.jpeg",
+			Images: "src/spot.jpg",
 			title: "Spot",
 			text: " Le mignon robot Spotou",
 		},
@@ -20,15 +20,21 @@ function Robot() {
 
 		{
 			id: 3,
-			Images: "src/bigdog.jpg",
-			title: "Big Dog",
-			text: "Le mignon robot Big DOg",
+			Images: "src/handle.jpg",
+			title: "Handle",
+			text: "Le mignon robot Handle",
 		},
 	];
 
 	return (
 		<>
-			<Carousel autoPlaye interval={3000} infiniteLoop thumbWidth={120} showIndicators={false}>
+			<Carousel
+				autoPlaye
+				interval={3000}
+				infiniteLoop
+				thumbWidth={120}
+				showIndicators={false}
+			>
 				{data.map((slide) => (
 					<div key={slide.id}>
 						<img src={slide.Images} alt="" />
