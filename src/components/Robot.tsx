@@ -29,7 +29,7 @@ function Robot() {
 	return (
 		<>
 			<Carousel
-				autoPlaye
+				autoPlay
 				interval={3000}
 				infiniteLoop
 				thumbWidth={120}

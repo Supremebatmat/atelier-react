@@ -1,16 +1,16 @@
 header {
-  display: flex;
-  align-items: center;
-  color: white;
-  padding: 2rem;
-  justify-content: space-evenly;
-  width: 100%;
-
-  background-color: #a306b6;
+	display: flex;
+	align-items: center;
+	color: white;
+	padding: 2rem;
+	justify-content: space-evenly;
+	width: 100%;
+	background-color: #a306b6;
+	box-shadow: 5px 5px 15px 1px #000000;
 }
 
 .logo {
-  height: 40px;
+	height: 40px;
 }
 .logoBoston {
   height: 80px;
