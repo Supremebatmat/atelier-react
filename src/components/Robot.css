@@ -2,6 +2,7 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	background-image: url(../background.jpg);
 }
 
 .carousel {
@@ -17,7 +18,7 @@
 .carousel .overlay {
 	width: 80%;
 	position: absolute;
-	top: 50%;
+	top: 85%;
 	transform: translateY(-50%);
 	left: 10%;
 	padding: 0.4rem 1.5rem;
